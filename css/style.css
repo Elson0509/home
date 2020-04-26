@@ -1,0 +1,498 @@
+body{
+    background: url("../imgs/background.jpg") repeat;
+}
+
+body, ul, li, p, h2, h3, h4{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+main{
+    margin-top: -22px;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.main1{
+    display: grid;
+    height: auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    grid-template-columns: 0.77fr 1.23fr;
+    grid-template-rows: auto auto;
+    background: white;
+    color: white;
+}
+
+.main1 p{
+    display: inline;  
+    background: transparent;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+.icon{
+    color: white;
+    display: inline;
+    font-size: 30px;
+    padding: 15px;
+}
+
+.icons{
+    color: white;
+    font-size: 60px;
+}
+
+.main1a{
+    grid-row: 1/span 2;
+    padding-right: 5px;
+}
+
+.main1a img{
+    width: 100%;
+    height: auto;
+    box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main1b{
+    padding: 10px;
+    background-color: #B4081D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main1c{
+    padding: 10px;
+    background-color: #465F07;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    align-items: center;
+}
+
+#toggle{
+    cursor: pointer;
+    display: none;
+}
+
+#togglelbl{
+    display: none;
+    margin: 5px;
+}
+
+.header h1{
+    color: white;
+    font-family: 'Righteous', cursive;
+    font-size: 40px;
+    transition: all ease-in 0.5s;
+
+}
+.header h1:hover{
+    color: rgb(110, 128, 189);
+    transition: all ease-in 0.5s;
+}
+
+.menu{
+    display: flex;
+    height: 35px;
+}
+
+.menu li{
+    margin-left: 20px;
+}
+
+.menu li a{
+    margin: 0;
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: border ease-in 0.2s;
+    cursor: pointer;
+    color: white;
+}
+
+.menu li a:hover{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    transition: border ease-in 0.2s;
+}
+
+.active{
+    background: white !important;
+    color: black !important;
+    pointer-events: none;
+}
+
+.active:hover{
+    border: 0 !important;
+}
+
+
+.lkdicon{
+    color: white;
+    transition: color ease-in 0.4s;
+}
+
+.gthicon{
+    color: white;
+    transition: color ease-in 0.4s;
+}
+
+.emailicon{
+    color: white;
+    transition: color ease-in 0.4s;
+}
+.lkdicon:hover{
+    color: #0e76a8;
+    transition: color ease-in 0.4s;
+}
+
+.gthicon:hover{
+    color: rgb(36, 185, 36);
+    transition: color ease-in 0.4s;
+}
+
+.emailicon:hover{
+    color: rgb(184, 83, 184);
+    transition: color ease-in 0.4s;
+}
+
+.bars{
+    background-color: transparent;
+    color: black;
+    font-size: 60px;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(40,40,40,1) 100%);
+}
+
+footer div{
+    margin: 10px;
+}
+
+.ded{
+    background-color:black;
+    color:white;
+    text-decoration:none;
+    padding:4px 6px;
+    font-family:-apple-system, BlinkMacSystemFont, San Francisco;
+    font-size:12px;
+    font-weight:bold;
+    line-height:1.2;
+    display:inline-block;
+    border-radius:3px;
+}
+
+.dedspan{
+    display:inline-block;
+    padding:2px 3px;
+}
+
+.dedsvg{
+    height:12px;
+    width:auto;
+    position:relative;
+    vertical-align:middle;
+    top:-2px;
+    fill:white;
+}
+
+.main2{
+    background: url("../imgs/programming.png") no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+    border: 2px solid black;
+}
+
+.main2 p{
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: justify;
+    letter-spacing: 2px;
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 20px 25px;
+}
+
+.maintrans{
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+
+.maintrans p{
+    font-family: 'Roboto', sans-serif !important;
+    text-align: justify !important;
+}
+
+.Resume{
+    margin: 30px;
+    background: #fff;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    /*Stacked  paper Effect*/
+    /*https://css-tricks.com/snippets/css/stack-of-paper/*/
+    /*Access on Mar 23, 2020, at 08:28 PM*/
+    /*Author: Geoff Graham (https://css-tricks.com/author/geoffgraham/)*/
+    box-shadow:
+    0 1px 1px rgba(0,0,0,0.15),
+    0 10px 0 -5px #eee,
+    0 10px 1px -4px rgba(0,0,0,0.15),
+    0 20px 0 -10px #eee,
+    0 20px 1px -9px rgba(0,0,0,0.15);
+    
+}
+
+.Resume hr{
+    border-top: 3px double #8c8b8b;
+}
+
+.Resume p{
+    text-align: justify;
+}
+
+.square li{
+    list-style: square;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.Resume h4{
+    padding: 4px 0;
+}
+
+.Resume li{
+    margin-bottom: 9px;
+}
+
+.ResHeader{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgb(46, 46, 46) 100%);
+    color: white;
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
+.ResHeader a{
+    color: white;
+}
+
+.ResHeader li{
+    margin-bottom: 7px;
+}
+.ResHeader ul{
+    margin-top: 15px;
+}
+
+.skillsLists{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 10px;
+}
+
+.ResEducation, .ResSkills, .ResExperience, .ResHonours{
+    padding: 10px 15px;
+}
+
+.ResHonours a{
+    color: black;
+}
+
+.Resume h1, .Resume h2{
+    display: inline;
+    padding-left: 15px;
+}
+
+.Resume i{
+    font-size: 30px;
+}
+
+.cert{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+    min-width: 400px;
+}
+
+.cert h1, .cert h2{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cert h1, .hobby h1{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.hobby h1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.hobby{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.hobby p{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    width: 70%;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+.titleCert{
+    grid-column: 1/2 span;
+    text-align: center;
+}
+
+.certificate{
+    display: grid;
+    gap: 20px;
+    grid-template-rows: 9fr 1fr;
+    margin: 20px;
+}
+
+.certificate img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    border: 8px inset gold;
+}
+
+.certificate h2{
+    text-align: center;
+}
+
+.hob{
+    display: grid;
+    gap: 5px;
+    border: 2px solid rgb(167, 58, 15);
+    border-radius: 12px;
+    margin: 20px auto;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(110, 128, 189, 0.4);
+    max-width: 70%;
+    align-items: center;
+}
+
+.left{
+    grid-template-columns: 38.2% 61.8%;
+}
+.right{
+    grid-template-columns: 61.8% 38.2%;
+}
+
+.hob-img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.hob-description{
+    text-align: justify;
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+
+@media(max-width: 1200px){
+    .cert{
+        grid-template-columns: 1fr;
+    }
+
+    .titleCert{
+        grid-column: 1/1 span;
+    }
+
+    .icons{
+        display: none;
+    }
+}
+
+@media(max-width: 900px){
+    .menu{
+        -webkit-flex-direction: column; 
+        flex-direction: column; 
+        display: flex;
+        margin-top: -70px;
+    }
+    .icons{
+        display: block;
+    }
+
+    .main1{
+        grid-template-columns: auto;
+        min-width: 300px;
+    }
+    .main2{
+        
+        min-width: 300px;
+    }
+
+}
+
+@media(max-width: 800px){
+    #togglelbl{
+        display: flex;
+    }
+    
+    #toggle:checked ~ .header{
+        display: none;
+    }
+
+    .header{
+        -webkit-flex-direction: column; 
+        flex-direction: column; 
+        height: 350px;
+        position: absolute;
+        display: flex;
+        z-index: 2;
+    }
+    .menu{
+        -webkit-flex-direction: column; 
+        flex-direction: column; 
+        display: flex;
+        margin-top: -90px;
+    }
+}
+
