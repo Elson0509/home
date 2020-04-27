@@ -30,6 +30,7 @@ main{
     grid-template-rows: auto auto;
     background: white;
     color: white;
+    min-width: 270px;
 }
 
 .main1 p{
@@ -228,6 +229,7 @@ footer div{
     background-size: 100% 100%;
     margin-bottom: 40px;
     border: 2px solid black;
+    min-width: 300px;
 }
 
 .main2 p{
@@ -462,11 +464,7 @@ footer div{
 
     .main1{
         grid-template-columns: auto;
-        min-width: 300px;
-    }
-    .main2{
         
-        min-width: 300px;
     }
 
 }
